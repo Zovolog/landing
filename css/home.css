@@ -389,8 +389,12 @@ footer {
   }
   .form-block {
     margin-top: 100px;
+    width: 100%;
   }
   .footer-container {
     flex-direction: column;
+  }
+  .bt-send {
+    width: auto;
   }
 }
