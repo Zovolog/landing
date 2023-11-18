@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/services.css" />
+  </head>
+  <body>
+    <header>
+      <div><img class="logo" src="./img/logo.png" height="70px" /></div>
+      <ul class="menu-list">
+        <li class="menu-list-item">
+          <a class="menu-list-item-link" href="index.html">Home</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-list-item-link" href="services.html">Services</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-list-item-link" href="contacts.html">Contacts</a>
+        </li>
+      </ul>
+      <div class="burger-menu">
+        <input
+          type="checkbox"
+          id="burger-checkbox"
+          class="burger-checkbox"
+          onclick="openMenu()"
+        />
+        <label for="burger-checkbox" class="burger"></label>
+      </div>
+    </header>
+    <main>
+      <div class="main-block">
+        <div class="main-block-container">
+          <h1 class="main-block-header">Services</h1>
+        </div>
+      </div>
+      <h1 class="services-header">Our services</h1>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <ul>
+          <li class="footer-item">
+            <a
+              class="footer-link"
+              href="https://www.google.com/maps/place/Mechanik%C3%B3w+17,+03-684+Warszawa/@52.288861,21.085926,17z/data=!3m1!4b1!4m6!3m5!1s0x471ece8aa35fb6f5:0x894fd5d66f5139ae!8m2!3d52.288861!4d21.0885009!16s%2Fg%2F11cslw76gz?authuser=0&entry=ttu"
+              target="_blank"
+              >Adress: Mechaników 17, 03-684 Warszawa</a
+            >
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="mailto:example@gmail.com"
+              >Email: example@gmail.com</a
+            >
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="tel:555-555-5555"
+              >Phone number: 555-555-5555</a
+            >
+          </li>
+        </ul>
+        <div><img src="./img/logo-back.png" width="300px" /></div>
+        <ul>
+          <li class="footer-item">
+            <a class="footer-link" href="" target="_blank">Privacy policy</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="">Terms & Conditions</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href=""> Disclaimer</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

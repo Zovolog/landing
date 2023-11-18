@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+  </head>
+  <body>
+    <header>
+      <div><img class="logo" src="./img/logo.png" height="70px" /></div>
+      <ul class="menu-list">
+        <li class="menu-list-item">
+          <a class="menu-list-item-link" href="home.html">Home</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-list-item-link" href="services.html">Services</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-list-item-link" href="contacts.html">Contacts</a>
+        </li>
+      </ul>
+      <div class="burger-menu">
+        <input
+          type="checkbox"
+          id="burger-checkbox"
+          class="burger-checkbox"
+          onclick="openMenu()"
+        />
+        <label for="burger-checkbox" class="burger"></label>
+      </div>
+    </header>
+    <div class="mobile-menu">
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-list-item">
+          <a class="menu-list-item-link" href="index.html">Home</a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a class="menu-list-item-link" href="services.html">Services</a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a class="menu-list-item-link" href="contacts.html">Contacts</a>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <div class="main-block">
+        <div class="main-block-container">
+          <h1 class="main-header">Car service station in Warsaw</h1>
+          <p class="main-text">
+            Welcome to our car service, where reliability and quality are our
+            top priorities. We provide outstanding services based on advanced
+            technologies and a professional approach.
+          </p>
+          <button class="bt-appointment" onclick="scrollToContact()">
+            Order a consultation
+          </button>
+          <button class="bt-team" onclick="scrollToServices()">
+            Our services
+          </button>
+        </div>
+      </div>
+      <div class="advantages-block">
+        <div class="advantages-container">
+          <div class="block-advantage">
+            <div><img src="./img/icon-1.png" /></div>
+            <p class="block-advantage-header">Safe</p>
+            <p class="block-advantage-text">
+              Trust in our service – we pride ourselves on being the safest in
+              the industry. With advanced technology and rigorous safety
+              measures, your experience with us is guaranteed to be secure and
+              protected.
+            </p>
+          </div>
+          <div class="block-advantage">
+            <div>
+              <img src="./img/icon-2.png" />
+            </div>
+            <p class="block-advantage-header">On time</p>
+            <p class="block-advantage-text">
+              Our service is committed to timely excellence. We ensure that
+              every task is completed promptly, offering efficiency you can rely
+              on. Your time matters to us, and we guarantee timely service at
+              every step.
+            </p>
+          </div>
+          <div class="block-advantage">
+            <div>
+              <img src="./img/icon-3.png" />
+            </div>
+            <p class="block-advantage-header">Professional</p>
+            <p class="block-advantage-text">
+              "Timely Excellence: We pride ourselves on delivering prompt and
+              efficient service. At every step, we ensure that tasks are
+              completed on time, providing you with reliable and timely
+              solutions."
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="services-block">
+        <h1 class="services-block-header">Our services</h1>
+        <div class="line-block">
+          <div class="service-block" id="service-block">
+            <img
+              src="./img/image1.jpg"
+              width="600px"
+              class="service-block-photo"
+            />
+            <p class="service-block-header">Engine diagnostics and repair</p>
+            <p class="service-block-text">
+              Auto service specialists conduct engine diagnostics to identify
+              problems and carry out repairs, including replacing parts,
+              adjusting systems, and performing other measures to restore normal
+              engine operation.
+            </p>
+          </div>
+          <div class="service-block">
+            <img src="./img/image2.jpg" class="service-block-photo" />
+            <p class="service-block-header">Maintenance and oil change</p>
+            <p class="service-block-text">
+              Regular maintenance helps keep your vehicle running smoothly. This
+              includes changing oil, filters, checking brakes, suspension and
+              other key components.
+            </p>
+          </div>
+        </div>
+        <div class="line-block">
+          <div class="service-block">
+            <img src="./img/image3.jpg" class="service-block-photo" />
+            <p class="service-block-header">Tire fitting and balancing</p>
+            <p class="service-block-text">
+              Services provide tire installation, removal, balancing and repair
+              services. This also includes seasonal tire storage and
+              recommendations for choosing new ones.
+            </p>
+          </div>
+          <div class="service-block">
+            <img src="./img/image4.jpg" class="service-block-photo" />
+            <p class="service-block-header">Engine diagnostics and repair</p>
+            <p class="service-block-text">
+              Specialists inspect and repair brake mechanisms, including
+              replacing brake pads, discs, adjusting brakes and other measures
+              to ensure safe braking.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="info-container">
+        <div class="info-block">
+          <div><img src="./img/10 years.png" width="150px" /></div>
+          <p class="info-block-header">More than 10 years on market</p>
+        </div>
+        <div class="info-block">
+          <div><img src="./img/client.png" width="150px" /></div>
+          <p class="info-block-header">More than 100 satisfied clients</p>
+        </div>
+        <div class="info-block">
+          <div><img src="./img/team.png" width="150px" /></div>
+          <p class="info-block-header">Team of more than 20 people</p>
+        </div>
+      </div>
+      <div class="contacts-container">
+        <div class="form-block" id="form-block">
+          <p class="contact-header">Contact us</p>
+          <input type="text" placeholder="Enter your name" />
+          <input type="text" placeholder="Enter your e-mail" />
+          <textarea
+            placeholder="Enter your message"
+            class="big-input"
+          ></textarea>
+          <p class="accept-text">
+            <input type="checkbox" class="input-checkbox" />I accept
+            <a href="#" class="policy-link">privace policy</a>
+          </p>
+          <button class="bt-send">Send</button>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.496275976004!2d21.086094576519567!3d52.288846372001494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecf0ac05ef11f%3A0x84cc9a4e8d4d6b23!2z0JDQstGC0L7RgdC10YDQstC40YE!5e0!3m2!1sen!2spl!4v1700085020524!5m2!1sen!2spl"
+            width="100%"
+            height="550"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <ul>
+          <li class="footer-item">
+            <a
+              class="footer-link"
+              href="https://www.google.com/maps/place/Mechanik%C3%B3w+17,+03-684+Warszawa/@52.288861,21.085926,17z/data=!3m1!4b1!4m6!3m5!1s0x471ece8aa35fb6f5:0x894fd5d66f5139ae!8m2!3d52.288861!4d21.0885009!16s%2Fg%2F11cslw76gz?authuser=0&entry=ttu"
+              target="_blank"
+              >Adress: Mechaników 17, 03-684 Warszawa</a
+            >
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="mailto:example@gmail.com"
+              >Email: example@gmail.com</a
+            >
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="tel:555-555-5555"
+              >Phone number: 555-555-5555</a
+            >
+          </li>
+        </ul>
+        <div><img src="./img/logo-back.png" width="300px" /></div>
+        <ul>
+          <li class="footer-item">
+            <a class="footer-link" href="" target="_blank">Privacy policy</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="">Terms & Conditions</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href=""> Disclaimer</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
