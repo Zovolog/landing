@@ -37,7 +37,6 @@ header {
   font-size: 18px;
 }
 .burger-checkbox {
-  position: absolute;
   visibility: hidden;
 }
 .burger-menu {
@@ -51,7 +50,7 @@ header {
   background: transparent;
   width: 40px;
   height: 26px;
-  margin: 30px auto;
+  margin-bottom: 30px;
 }
 .burger::before,
 .burger::after {
@@ -351,11 +350,21 @@ footer {
   .menu-list {
     display: none;
   }
+  header {
+    width: 90%;
+  }
   .burger-menu {
     display: block;
   }
   .main-block {
     height: auto;
+    padding: 70px 0 70px 0;
+  }
+  .main-text {
+    width: 100%;
+  }
+  .main-header {
+    font-size: 3rem;
   }
   .advantages-block {
     margin-top: 50px;
@@ -389,10 +398,11 @@ footer {
   }
   .form-block {
     margin-top: 100px;
-    width: 100%;
+    width: 80%;
   }
   .footer-container {
     flex-direction: column;
+    align-items: flex-start;
   }
   .bt-send {
     width: auto;
