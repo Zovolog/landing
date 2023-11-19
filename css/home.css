@@ -36,6 +36,10 @@ header {
   font-weight: 600;
   font-size: 18px;
 }
+.menu-list-item-link:hover {
+  text-decoration: underline;
+  transition: 0.3ms;
+}
 .burger-checkbox {
   visibility: hidden;
 }
