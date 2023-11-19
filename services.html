@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Our services</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/services.css" />
+    <link rel="icon" href="./img/logo-back.png" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -31,6 +32,19 @@
         <label for="burger-checkbox" class="burger"></label>
       </div>
     </header>
+    <div class="mobile-menu">
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-list-item">
+          <a class="menu-list-item-link" href="index.html">Home</a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a class="menu-list-item-link" href="services.html">Services</a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a class="menu-list-item-link" href="contacts.html">Contacts</a>
+        </li>
+      </ul>
+    </div>
     <main>
       <div class="main-block">
         <div class="main-block-container">
@@ -38,6 +52,64 @@
         </div>
       </div>
       <h1 class="services-header">Our services</h1>
+      <div class="services-container">
+        <div class="service-block" id="engine">
+          <div class="service-text-part">
+            <p class="service-block-header">Engine diagnostics</p>
+            <p class="service-block-text">
+              Cars are becoming more and more technologically advanced. Computer
+              diagnostics speeds up the process of error verification or fault
+              detection, which affects the speed of repair of your car.
+            </p>
+          </div>
+          <div class="image-container">
+            <img src="./img/image1.jpg" width="100%" />
+          </div>
+        </div>
+        <div class="service-block" id="oil">
+          <div class="image-container">
+            <img src="./img/image2.jpg" width="100%" />
+          </div>
+          <div class="service-text-part">
+            <p class="service-block-header">Maintenance and oil change</p>
+            <p class="service-block-text">
+              Proper oil changes are key to ensuring the longevity and
+              performance of your vehicle. This regular maintenance not only
+              extends the life of the engine, but also ensures better
+              performance and fuel economy.
+            </p>
+          </div>
+        </div>
+        <div class="service-block" id="tire">
+          <div class="service-text-part">
+            <p class="service-block-header">Tire fitting and balancing</p>
+            <p class="service-block-text">
+              Ensuring that your wheels are properly balanced and mounted is an
+              integral part of maintaining your vehicle's performance. These
+              processes not only improve driving comfort, but also ensure your
+              safety on the road.
+            </p>
+          </div>
+          <div class="image-container">
+            <img src="./img/image3.jpg" width="100%" />
+          </div>
+        </div>
+        <div class="service-block" id="brake">
+          <div class="image-container">
+            <img src="./img/image4.jpg" width="100%" />
+          </div>
+          <div class="service-text-part">
+            <p class="service-block-header">Brake system repair</p>
+            <p class="service-block-text">
+              Brake System Repair: Safe Stopping for Your Car The condition of
+              your brake system is an extremely important aspect for your safety
+              on the road. Professional brake repair not only ensures you stop
+              effectively, but also helps keep your brake components in good
+              condition.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="footer-container">
@@ -75,5 +147,6 @@
         </ul>
       </div>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -15,3 +15,7 @@ function openMenu() {
     menu.style.display = "block";
   }
 }
+
+function scrollToService(id) {
+  window.location.href = `services.html#${id}`;
+}

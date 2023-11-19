@@ -6,6 +6,7 @@
     <title>Contacts</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/contacts.css" />
+    <link rel="icon" href="./img/logo-back.png" type="image/x-icon" />
   </head>
   <body>
     <div class="body-wrapper">
@@ -23,10 +24,28 @@
           </li>
         </ul>
         <div class="burger-menu">
-          <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
+          <input
+            type="checkbox"
+            id="burger-checkbox"
+            class="burger-checkbox"
+            onclick="openMenu()"
+          />
           <label for="burger-checkbox" class="burger"></label>
         </div>
       </header>
+      <div class="mobile-menu">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-list-item">
+            <a class="menu-list-item-link" href="index.html">Home</a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a class="menu-list-item-link" href="services.html">Services</a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a class="menu-list-item-link" href="contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
       <main>
         <div class="main-container">
           <h1 class="main-logo">Contacts</h1>
