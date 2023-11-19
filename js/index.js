@@ -19,3 +19,8 @@ function openMenu() {
 function scrollToService(id) {
   window.location.href = `services.html#${id}`;
 }
+const status = sessionStorage.getItem("status");
+function closeWindow() {
+  const cookies = document.querySelector(".cookies-container");
+  cookies.style.display = "none";
+}

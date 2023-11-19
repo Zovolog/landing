@@ -9,7 +9,9 @@
   </head>
   <body>
     <header>
-      <div><img class="logo" src="./img/logo.png" height="70px" /></div>
+      <div>
+        <img class="logo" src="./img/logo.png" height="70px" alt="logo" />
+      </div>
       <ul class="menu-list">
         <li class="menu-list-item">
           <a class="menu-list-item-link" href="index.html">Home</a>
@@ -127,7 +129,7 @@
             >
           </li>
         </ul>
-        <div><img src="./img/logo-back.png" width="300px" /></div>
+        <div><img src="./img/logo-back.png" width="300px" alt="logo" /></div>
         <ul>
           <li class="footer-item">
             <a class="footer-link" href="./privacy-policy.html" target="_blank"
@@ -145,6 +147,18 @@
         </ul>
       </div>
     </footer>
+    <div class="cookies-container">
+      <p class="cookies-text">
+        Our resource uses cookies to improve your experience. If you wish, you
+        can opt out of them, however, this may limit some of the functions of
+        the site. Check out our
+        <a href="./privacy-policy.html">cookie notice.</a>
+      </p>
+      <div class="bt-line">
+        <button class="bt-cookie" onclick="closeWindow()">Accept all</button>
+        <button class="bt-cookie" onclick="closeWindow()">Reject all</button>
+      </div>
+    </div>
     <script src="js/index.js"></script>
   </body>
 </html>

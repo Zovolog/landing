@@ -138,4 +138,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
+  .cookies-container {
+    width: 90%;
+  }
 }

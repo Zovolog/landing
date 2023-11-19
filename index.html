@@ -10,7 +10,9 @@
   </head>
   <body>
     <header>
-      <div><img class="logo" src="./img/logo.png" height="70px" /></div>
+      <div>
+        <img class="logo" src="./img/logo.png" height="70px" alt="logo" />
+      </div>
       <ul class="menu-list">
         <li class="menu-list-item">
           <a class="menu-list-item-link" href="home.html">Home</a>
@@ -65,7 +67,7 @@
       <div class="advantages-block">
         <div class="advantages-container">
           <div class="block-advantage">
-            <div><img src="./img/icon-1.png" /></div>
+            <div><img src="./img/icon-1.png" alt="icon" /></div>
             <p class="block-advantage-header">Safe</p>
             <p class="block-advantage-text">
               Trust in our service – we pride ourselves on being the safest in
@@ -76,7 +78,7 @@
           </div>
           <div class="block-advantage">
             <div>
-              <img src="./img/icon-2.png" />
+              <img src="./img/icon-2.png" alt="icon" />
             </div>
             <p class="block-advantage-header">On time</p>
             <p class="block-advantage-text">
@@ -88,7 +90,7 @@
           </div>
           <div class="block-advantage">
             <div>
-              <img src="./img/icon-3.png" />
+              <img src="./img/icon-3.png" alt="icon" />
             </div>
             <p class="block-advantage-header">Professional</p>
             <p class="block-advantage-text">
@@ -108,6 +110,7 @@
               src="./img/image1.jpg"
               width="600px"
               class="service-block-photo"
+              alt="image"
             />
             <p class="service-block-header">Engine diagnostics and repair</p>
             <p class="service-block-text">
@@ -121,7 +124,11 @@
             </button>
           </div>
           <div class="service-block">
-            <img src="./img/image2.jpg" class="service-block-photo" />
+            <img
+              src="./img/image2.jpg"
+              class="service-block-photo"
+              alt="image"
+            />
             <p class="service-block-header">Maintenance and oil change</p>
             <p class="service-block-text">
               Regular maintenance helps keep your vehicle running smoothly. This
@@ -135,7 +142,11 @@
         </div>
         <div class="line-block">
           <div class="service-block">
-            <img src="./img/image3.jpg" class="service-block-photo" />
+            <img
+              src="./img/image3.jpg"
+              class="service-block-photo"
+              alt="image"
+            />
             <p class="service-block-header">Tire fitting and balancing</p>
             <p class="service-block-text">
               Services provide tire installation, removal, balancing and repair
@@ -147,7 +158,11 @@
             </button>
           </div>
           <div class="service-block">
-            <img src="./img/image4.jpg" class="service-block-photo" />
+            <img
+              src="./img/image4.jpg"
+              class="service-block-photo"
+              alt="image"
+            />
             <p class="service-block-header">Brake system repair</p>
             <p class="service-block-text">
               Specialists inspect and repair brake mechanisms, including
@@ -162,15 +177,15 @@
       </div>
       <div class="info-container">
         <div class="info-block">
-          <div><img src="./img/10 years.png" width="150px" /></div>
+          <div><img src="./img/10 years.png" width="150px" alt="icon" /></div>
           <p class="info-block-header">More than 10 years on market</p>
         </div>
         <div class="info-block">
-          <div><img src="./img/client.png" width="150px" /></div>
+          <div><img src="./img/client.png" width="150px" alt="icon" /></div>
           <p class="info-block-header">More than 100 satisfied clients</p>
         </div>
         <div class="info-block">
-          <div><img src="./img/team.png" width="150px" /></div>
+          <div><img src="./img/team.png" width="150px" alt="icon" /></div>
           <p class="info-block-header">Team of more than 20 people</p>
         </div>
       </div>
@@ -185,7 +200,9 @@
           ></textarea>
           <p class="accept-text">
             <input type="checkbox" class="input-checkbox" />I accept
-            <a href="#" class="policy-link">privace policy</a>
+            <a href="./privacy-policy.html" class="policy-link" target="_blank"
+              >privace policy</a
+            >
           </p>
           <button class="bt-send">Send</button>
         </div>
@@ -224,20 +241,34 @@
             >
           </li>
         </ul>
-        <div><img src="./img/logo-back.png" width="300px" /></div>
+        <div><img src="./img/logo-back.png" width="300px" alt="logo" /></div>
         <ul>
           <li class="footer-item">
-            <a class="footer-link" href="" target="_blank">Privacy policy</a>
+            <a class="footer-link" href="./contacts.html" target="_blank"
+              >Privacy policy</a
+            >
           </li>
           <li class="footer-item">
-            <a class="footer-link" href="">Terms & Conditions</a>
+            <a class="footer-link" href="./contacts.html">Terms & Conditions</a>
           </li>
           <li class="footer-item">
-            <a class="footer-link" href=""> Disclaimer</a>
+            <a class="footer-link" href="./contacts.html"> Disclaimer</a>
           </li>
         </ul>
       </div>
     </footer>
+    <div class="cookies-container">
+      <p class="cookies-text">
+        Our resource uses cookies to improve your experience. If you wish, you
+        can opt out of them, however, this may limit some of the functions of
+        the site. Check out our
+        <a href="./privacy-policy.html">cookie notice.</a>
+      </p>
+      <div class="bt-line">
+        <button class="bt-cookie" onclick="closeWindow()">Accept all</button>
+        <button class="bt-cookie" onclick="closeWindow()">Reject all</button>
+      </div>
+    </div>
     <script src="js/index.js"></script>
   </body>
 </html>
