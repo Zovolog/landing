@@ -24,3 +24,10 @@ function closeWindow() {
   const cookies = document.querySelector(".cookies-container");
   cookies.style.display = "none";
 }
+function sendUserToThx() {
+  window.location.href = "thx.html";
+}
+
+function backMainPage(){
+  window.location.href = "index.html";
+}
