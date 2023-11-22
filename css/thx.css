@@ -40,4 +40,7 @@ main {
   .main-container {
     width: 90%;
   }
+  main {
+    height: auto;
+  }
 }
